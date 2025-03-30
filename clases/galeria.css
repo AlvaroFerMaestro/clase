@@ -1,0 +1,53 @@
+body{
+background-color: blueviolet;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+img{
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    object-fit: contain;
+    background-color: black;
+}
+
+.galeria{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+    }
+
+.div1 { 
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+ }
+.div2 {    
+        grid-column: span 2 / span 2;
+        grid-row: span 2 / span 2;
+        grid-column-start: 2;
+        grid-row-start: 3; }
+.div3 { 
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 1; 
+}
+
+    .div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
